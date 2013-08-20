@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_22" class="java.beans.XMLDecoder"> 
+ <object class="RobotModel.SimulationConfiguration"> 
+  <void property="evoConfig"> 
+   <void property="knotPoints"> 
+    <int>3</int> 
+   </void> 
+   <void property="maxMutationAmmount"> 
+    <int>3</int> 
+   </void> 
+   <void property="mutationProbability"> 
+    <double>0.7</double> 
+   </void> 
+   <void property="populationSize"> 
+    <int>12</int> 
+   </void> 
+   <void property="stuckTimes"> 
+    <int>4</int> 
+   </void> 
+  </void> 
+  <void property="pathConfig"> 
+   <void property="start_Goal_List"> 
+    <void method="add"> 
+     <object class="RobotModel.Start_Goal_Info"> 
+      <void property="goalPosition"> 
+       <float>100.0</float> 
+      </void> 
+      <void property="jointVariableType"> 
+       <object id="JointVariableType0" class="RobotModel.JointVariableType" method="valueOf"> 
+        <string>THETA_I</string> 
+       </object> 
+      </void> 
+      <void property="name"> 
+       <string>Goal: 0</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Start_Goal_Info"> 
+      <void property="goalPosition"> 
+       <float>100.0</float> 
+      </void> 
+      <void property="jointVariableType"> 
+       <object idref="JointVariableType0"/> 
+      </void> 
+      <void property="name"> 
+       <string>Goal: 1</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Start_Goal_Info"> 
+      <void property="goalPosition"> 
+       <float>100.0</float> 
+      </void> 
+      <void property="jointVariableType"> 
+       <object idref="JointVariableType0"/> 
+      </void> 
+      <void property="name"> 
+       <string>Goal: 2</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Start_Goal_Info"> 
+      <void property="goalPosition"> 
+       <float>100.0</float> 
+      </void> 
+      <void property="jointVariableType"> 
+       <object idref="JointVariableType0"/> 
+      </void> 
+      <void property="name"> 
+       <string>Goal: 3</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Start_Goal_Info"> 
+      <void property="goalPosition"> 
+       <float>100.0</float> 
+      </void> 
+      <void property="jointVariableType"> 
+       <object idref="JointVariableType0"/> 
+      </void> 
+      <void property="name"> 
+       <string>Goal: 4</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Start_Goal_Info"> 
+      <void property="goalPosition"> 
+       <float>100.0</float> 
+      </void> 
+      <void property="jointVariableType"> 
+       <object idref="JointVariableType0"/> 
+      </void> 
+      <void property="name"> 
+       <string>Goal: 5</string> 
+      </void> 
+     </object> 
+    </void> 
+   </void> 
+  </void> 
+  <void property="robotConfig"> 
+   <void property="joints"> 
+    <void method="add"> 
+     <object class="RobotModel.Joint"> 
+      <void property="AP"> 
+       <float>0.1</float> 
+      </void> 
+      <void property="name"> 
+       <string>Joint: 0</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Joint"> 
+      <void property="AP"> 
+       <float>0.1</float> 
+      </void> 
+      <void property="alphaP"> 
+       <float>-90.0</float> 
+      </void> 
+      <void property="name"> 
+       <string>Joint: 1</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Joint"> 
+      <void property="AP"> 
+       <float>2.0</float> 
+      </void> 
+      <void property="DI"> 
+       <float>0.1</float> 
+      </void> 
+      <void property="name"> 
+       <string>Joint: 2</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Joint"> 
+      <void property="AP"> 
+       <float>2.0</float> 
+      </void> 
+      <void property="DI"> 
+       <float>0.1</float> 
+      </void> 
+      <void property="alphaP"> 
+       <float>-90.0</float> 
+      </void> 
+      <void property="name"> 
+       <string>Joint: 3</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Joint"> 
+      <void property="AP"> 
+       <float>0.1</float> 
+      </void> 
+      <void property="alphaP"> 
+       <float>90.0</float> 
+      </void> 
+      <void property="name"> 
+       <string>Joint: 4</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="RobotModel.Joint"> 
+      <void property="AP"> 
+       <float>0.1</float> 
+      </void> 
+      <void property="alphaP"> 
+       <float>-90.0</float> 
+      </void> 
+      <void property="name"> 
+       <string>Joint: 5</string> 
+      </void> 
+     </object> 
+    </void> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

@@ -1,6 +1,8 @@
 *.class
-
+*.svn-base
+*.netbeans-base
 # Package Files #
 *.jar
 *.war
 *.ear
+/Evo_Path_Finder/nbproject/private/
